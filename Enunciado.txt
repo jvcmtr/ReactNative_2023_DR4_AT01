@@ -1,0 +1,19 @@
+Assessment
+Exercício 01
+Instale o ReactRouter 6 e suas dependências no terminal.
+
+Crie um novo diretório chamado "pages" dentro do diretório "src". Dentro deste diretório, crie três arquivos JSX: "Home.jsx", "Sobre.jsx" e "Contato.jsx".
+
+No arquivo "Home.jsx", crie um componente chamado "Home" que renderiza uma mensagem de boas-vindas na tela.
+
+No arquivo "Sobre.jsx", crie um componente chamado "Sobre" que renderiza informações sobre o aplicativo.
+
+No arquivo "Contato.jsx", crie um componente chamado "Contato" que renderiza um formulário de contato. Faça a validação dos dados e estilize o formulário.
+
+No arquivo "App.jsx", importe os componentes "Home", "Sobre" e "Contato" que foram criados nos arquivos "Home.jsx", "Sobre.jsx" e "Contato.jsx", respectivamente.
+
+Dentro do componente "App", utilize o componente "Router" do ReactRouter 6 para criar as rotas para cada página. As rotas devem ser criadas usando os componentes "Route".
+
+Crie uma rota para a página "Home" que renderize o componente "Home". Crie uma rota para a página "Sobre" que renderize o componente "Sobre". Crie uma rota para a página "Contato" que renderize o componente "Contato".
+
+Crie um menu de navegação que permita ao usuário navegar entre as páginas "Home", "Sobre" e "Contato". Para isso, crie um componente de navegação em um arquivo separado (chamado "Nav.jsx") e importe-o no arquivo "App.jsx". No componente de navegação, utilize o componente "Link" do ReactRouter 6 para criar os links para cada página.
